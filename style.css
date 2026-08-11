@@ -1,4 +1,17 @@
+/* Logo */
 <div class="container-fluid">
     <img src="bi bi-newspaper logo" class="logo fs-6" alt="logo">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
+
+  /* 2nd navbar padding */
+  .p-4 {
+  margin:  5px;
+  padding: 50px;
+}
+ /* 2nd navbar gaap */
+.d-flex.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25rem;
+}
