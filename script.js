@@ -1,6 +1,6 @@
-function timeDate {
-    const dt = newDate();
-    document.getElementById('dt1').innerText = dt.toLocaleString();     // Only Date & Time
+function timeDate() {
+    const dt = new Date();
+    document.getElementById('dt3').innerText = dt.toLocaleString();     // Only Date & Time
 }
 timeDate();
 setInterval(timeDate, 1000);
