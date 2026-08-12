@@ -4,9 +4,9 @@
   margin:  5px;
   padding: 50px;
 }
- /* 2nd navbar gaap */
+ /* 2nd navbar gap */
 .d-flex.flex-row {
   display: flex;
   flex-direction: row;
-  gap: 25rem;
+  gap: 5rem;
 }
